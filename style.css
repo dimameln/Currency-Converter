@@ -1,0 +1,37 @@
+
+body {
+    background-color: #1d1d1d;
+    font-family: "Roboto Light", serif;
+}
+.form {
+    margin-top: 100px;
+    text-align: center;
+}
+.input {
+    font-family: "Roboto Light", serif;
+    font-size: 18px;
+    border-radius: 20px 5px;
+    border: 2px solid #1f911f;
+    width: 250px;
+    height: 30px;
+    transition: all .3s linear;
+    background-color: #3f3838;
+    color: chartreuse;
+
+    margin-bottom: 20px;
+}
+input::-webkit-input-placeholder {
+    color: rgba(127, 255, 0, 0.27);
+}
+
+.rubles {
+    font-size: 40px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #05289a;
+    border-radius: 5px 20px;
+    transition: all .3s linear;
+}
